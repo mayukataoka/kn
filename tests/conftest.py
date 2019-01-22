@@ -17,9 +17,3 @@ def setup_driver(request):
     driver.close()
 
 
-
-
-@pytest.fixture()
-def home(env_setup):
-    URL = 'https://www.khanacademy.org/'
-    driver.get(URL)
